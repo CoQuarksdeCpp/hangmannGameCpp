@@ -1,0 +1,34 @@
+<!-- languages.xml -->
+<languages>
+	<language id="en">
+		<welcome>Welcome to Hangman! Type '1' to start or '2' to view instructions:</welcome>
+		<invalid_option>Invalid option! Please select either '1' or '2'.</invalid_option>
+		<instructions>Press Enter to go back to the main menu...</instructions>
+		<guess_letter>Guess a letter:</guess_letter>
+		<correct>Correct!</correct>
+		<incorrect>Incorrect!</incorrect>
+		<invalid_input>Invalid input! Please enter exactly one letter.</invalid_input>
+		<continue>Press Enter to continue...</continue>
+		<congratulations>Congratulations! You have guessed the word</congratulations>
+		<game_over>Game Over! The correct word was:</game_over>
+		<thank_you>Thank you for playing! Goodbye!</thank_you>
+		<choose_language>Choose your language (en/de):</choose_language>
+		<invalid_language>Invalid language! Please choose either 'en' or 'de'.</invalid_language>
+	</language>
+	<language id="de">
+		<welcome>Willkommen zu Hangman! Geben Sie '1' ein, um zu starten, oder '2', um die Anweisungen zu sehen:</welcome>
+		<invalid_option>Ungültige Option! Bitte wählen Sie entweder '1' oder '2'.</invalid_option>
+		<instructions>Drücken Sie die Eingabetaste, um zum Hauptmenü zurückzukehren...</instructions>
+		<guess_letter>Erraten Sie einen Buchstaben:</guess_letter>
+		<correct>Richtig!</correct>
+		<incorrect>Falsch!</incorrect>
+		<invalid_input>Ungültige Eingabe! Bitte geben Sie genau einen Buchstaben ein.</invalid_input>
+		<continue>Drücken Sie die Eingabetaste, um fortzufahren...</continue>
+		<congratulations>Glückwunsch! Sie haben das Wort</congratulations>
+		<game_over>Spiel vorbei! Das richtige Wort war:</game_over>
+		<thank_you>Vielen Dank fürs Spielen! Auf Wiedersehen!</thank_you>
+		<choose_language>Wählen Sie Ihre Sprache (en/de):</choose_language>
+		<invalid_language>Ungültige Sprache! Bitte wählen Sie entweder 'en' oder 'de'.</invalid_language>
+	</language>
+	<!-- Weitere Sprachen hier -->
+</languages>

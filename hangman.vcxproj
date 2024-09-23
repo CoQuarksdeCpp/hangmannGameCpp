@@ -127,17 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DisplayManager.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="hangman.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DisplayManager.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="hangman.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LanguageManager.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="words.txt">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="languages.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

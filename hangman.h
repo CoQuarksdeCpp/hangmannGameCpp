@@ -1,35 +1,41 @@
 #pragma once
-
 #include <string>
 #include <vector>
 
-// Hangman class handles the core game logic
+// Die Hangman-Klasse verwaltet die Hauptlogik des Spiels
 class Hangman {
+
 private:
-    std::string wordToGuess;   // The word that the player needs to guess
-    std::string guessedWord;   // The current state of the guessed word (with underscores for unguessed letters)
-    std::vector<char> wrongGuesses;  // Stores the player's incorrect guesses
-    int remainingAttempts;     // Number of attempts left before the player loses
+    std::string wordToGuess;   // Das Wort, das der Spieler erraten muss
+    std::string guessedWord;   // Der aktuelle Stand des erratenen Wortes (mit Unterstrichen für nicht erratene Buchstaben)
+    std::vector<char> wrongGuesses;  // Speichert die falschen Vermutungen des Spielers
+    int remainingAttempts;     // Anzahl der verbleibenden Versuche, bevor der Spieler verliert
 
 public:
-    // Constructor: Initializes the game with the word to guess and the number of attempts
+    // Konstruktor: Initialisiert das Spiel mit dem zu erratenden Wort und der Anzahl der Versuche
     Hangman(const std::string& word, int attempts);
 
-    // Displays the current status of the game (word state, wrong guesses, remaining attempts)
-    void displayStatus() const;
-
-    // Processes a guessed letter and updates the game state
+    // Verarbeitet einen erratenen Buchstaben und aktualisiert den Spielzustand
     bool guessLetter(char letter);
 
-    // Checks if the game is over (no more attempts)
+    // Überprüft, ob das Spiel vorbei ist (keine Versuche mehr)
     bool isGameOver() const;
 
-    // Checks if the player has guessed the entire word
+    // Überprüft, ob der Spieler das gesamte Wort erraten hat
     bool isWordGuessed() const;
 
-    // Blinks the correct letters when guessed (for visual feedback)
+    // Berechnet die Anzahl der Versuche basierend auf dem Wort und den eindeutigen Buchstaben
+    size_t calculateAttempts(const std::string& word);
+
+    // Gibt das erratene Wort zur Anzeige zurück
+    std::string getGuessedWord() const { return guessedWord; }
+
+    // Gibt die verbleibenden Versuche zurück
+    int getRemainingAttempts() const { return remainingAttempts; }
+
+    // Gibt die falschen Vermutungen zur Anzeige zurück
+    const std::vector<char>& getWrongGuesses() const { return wrongGuesses; }
+
+    // Lässt die richtigen Buchstaben blinken, wenn sie erraten wurden (für visuelles Feedback)
     void blinkCorrectLetters(char letter) const;
 };
-
-// Declaration of clearScreen to clear the terminal screen
-void clearScreen();
