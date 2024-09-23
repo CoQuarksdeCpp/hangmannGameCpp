@@ -1,0 +1,27 @@
+# This is a comment, ignored by GitHub
+
+# Code owners for all files in the root and all subdirectories
+* @CoQuarksde
+
+
+# The following line sets @CoQuarksde and @team1 as code owners for everything in the root directory
+#* @CoQuarksde # @team1
+
+# The following line sets @CoQuarksde as code owner for all Python files in the repo
+#/src/*.py @CoQuarksde
+
+# This sets @team2 as the code owner for all files in the /src directory
+# /src/ @team2
+
+# This sets @username3 as the code owner for specific files
+# /docs/readme.md @username3
+
+# Code owners for all files in the root and all subdirectories
+#* @username1 @team1
+
+# Code owners for all Python files in the repository (root and subdirectories)
+#*.py @username1 @team1
+
+# Code owners for a specific subdirectory and all its contents
+#/specific-folder/** @username2 @team2
+
