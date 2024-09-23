@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{E4BAB649-EAD7-4FBF-8BCD-3381459D4422}|hangman.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eteda\\source\\repos\\hangman\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4BAB649-EAD7-4FBF-8BCD-3381459D4422}|hangman.vcxproj|C:\\Users\\eteda\\source\\repos\\hangman\\hangman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E4BAB649-EAD7-4FBF-8BCD-3381459D4422}|hangman.vcxproj|solutionrelative:hangman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{E4BAB649-EAD7-4FBF-8BCD-3381459D4422}|hangman.vcxproj|C:\\Users\\eteda\\source\\repos\\hangman\\words.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E4BAB649-EAD7-4FBF-8BCD-3381459D4422}|hangman.vcxproj|solutionrelative:words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eteda\\source\\repos\\hangman\\CODEOWNERS||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CODEOWNERS||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eteda\\source\\repos\\hangman\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eteda\\source\\repos\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eteda\\source\\repos\\hangman\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +42,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "CODEOWNERS",
+              "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\CODEOWNERS",
+              "RelativeDocumentMoniker": "CODEOWNERS",
+              "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\CODEOWNERS",
+              "RelativeToolTip": "CODEOWNERS",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T13:40:30.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T13:10:31.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T13:03:39.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -47,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "words.txt",
               "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\words.txt",
               "RelativeDocumentMoniker": "words.txt",
@@ -66,33 +121,33 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAIIAAACAZGZmZiYowI8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-19T18:33:19.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "hangman.h",
               "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\hangman.h",
               "RelativeDocumentMoniker": "hangman.h",
               "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\hangman.h",
               "RelativeToolTip": "hangman.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-19T18:19:39.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "hangman.cpp",
               "DocumentMoniker": "C:\\Users\\eteda\\source\\repos\\hangman\\hangman.cpp",
               "RelativeDocumentMoniker": "hangman.cpp",
               "ToolTip": "C:\\Users\\eteda\\source\\repos\\hangman\\hangman.cpp",
               "RelativeToolTip": "hangman.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-19T18:19:10.773Z",
               "EditorCaption": ""

@@ -1,29 +1,25 @@
+#define NOMINMAX  // Prevent windows.h from defining min/max macros
+
 #include "Hangman.h"
 #include <iostream>
-#include <fstream>  // For file handling
+#include <fstream>
 #include <vector>
 #include <string>
-#include <ctime>    // For random number generation
-#include <cstdlib>  // For rand() and srand()
-#include <cctype>   // For character handling functions
-#include <thread>   // For sleep_for
-#include <chrono>   // For time durations
-#include <iomanip>  // For std::setw
+#include <ctime>
+#include <cstdlib>
+#include <cctype>
+#include <thread>
+#include <chrono>
+#include <iomanip>
+#include <limits>   // Include limits for numeric_limits
+
 #ifdef _WIN32
-#include <windows.h>  // For Windows terminal size
+#include <windows.h>
 #else
-#include <sys/ioctl.h>  // For Linux/macOS terminal size
+#include <sys/ioctl.h>
 #include <unistd.h>
 #endif
 
-// Function to clear the screen depending on the operating system
-void clearScreen() {
-#ifdef _WIN32
-    system("cls");  // Windows command to clear the screen
-#else
-    system("clear");  // Linux/macOS command to clear the screen
-#endif
-}
 
 // Function to get the width of the terminal window
 int getTerminalWidth() {
@@ -76,7 +72,8 @@ void showInstructions() {
     std::cout << "3. For each correct letter guessed, the corresponding underscore will be replaced with the correct letter.\n";
     std::cout << "4. If you guess incorrectly, your number of remaining attempts decreases.\n";
     std::cout << "5. The game ends if you guess all the letters (you win) or if you run out of attempts (you lose).\n";
-    std::cout << "6. You can play again after a game is over or exit.\n";
+    std::cout << "6. After 3 incorrect guesses, the instructions will be shown again to help you remember the rules.\n"; // New instruction added
+    std::cout << "7. You can play again after a game is over or exit.\n";
     std::cout << "Good luck!\n";
 
     std::cout << "\nPress Enter to continue..." << std::endl;
