@@ -1,20 +1,5 @@
-﻿  main.cpp
-C:\Users\eteda\source\repos\hangman\main.cpp(136,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\eteda\source\repos\hangman\main.cpp(155,67): warning C4003: not enough arguments for function-like macro invocation 'max'
-C:\Users\eteda\source\repos\hangman\main.cpp(155,67): error C2589: '(': illegal token on right side of '::'
-C:\Users\eteda\source\repos\hangman\main.cpp(155,29): error C2144: syntax error: 'unknown-type' should be preceded by ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(155,29): error C2144: syntax error: 'unknown-type' should be preceded by ';'
-C:\Users\eteda\source\repos\hangman\main.cpp(155,67): error C2059: syntax error: ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(155,78): error C2059: syntax error: ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,67): warning C4003: not enough arguments for function-like macro invocation 'max'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,67): error C2589: '(': illegal token on right side of '::'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,29): error C2144: syntax error: 'unknown-type' should be preceded by ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,29): error C2144: syntax error: 'unknown-type' should be preceded by ';'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,67): error C2059: syntax error: ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(159,78): error C2059: syntax error: ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,67): warning C4003: not enough arguments for function-like macro invocation 'max'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,67): error C2589: '(': illegal token on right side of '::'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,29): error C2144: syntax error: 'unknown-type' should be preceded by ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,29): error C2144: syntax error: 'unknown-type' should be preceded by ';'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,67): error C2059: syntax error: ')'
-C:\Users\eteda\source\repos\hangman\main.cpp(164,78): error C2059: syntax error: ')'
+﻿  hangman.cpp
+  main.cpp
+C:\Users\eteda\source\repos\hangman\main.cpp(132,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  hangman.vcxproj -> C:\Users\eteda\source\repos\hangman\x64\Debug\hangman.exe
