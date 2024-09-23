@@ -1,5 +1,5 @@
 ﻿  hangman.cpp
   main.cpp
-C:\Users\eteda\source\repos\hangman\main.cpp(132,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\eteda\source\repos\hangman\main.cpp(131,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   hangman.vcxproj -> C:\Users\eteda\source\repos\hangman\x64\Debug\hangman.exe

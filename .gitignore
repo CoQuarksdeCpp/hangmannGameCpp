@@ -1,5 +1,25 @@
 # Ignore Visual Studio specific files
 .vs/
 *.suo
+*.user
+*.vcxproj.user
+*.filters
 *.db
 *.sqlite
+
+# Build directories (Debug and Release)
+x64/Debug/
+x64/Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+*.backup
+*.old

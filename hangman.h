@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include <string>
 #include <vector>
 
@@ -32,6 +31,5 @@ public:
     void blinkCorrectLetters(char letter) const;
 };
 
-// Clears the terminal screen (for Windows and Unix-based systems)
-void clearScreen();     // Function declaration
-
+// Declaration of clearScreen to clear the terminal screen
+void clearScreen();
