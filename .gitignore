@@ -1,1 +1,5 @@
+# Ignore Visual Studio specific files
 .vs/
+*.suo
+*.db
+*.sqlite
